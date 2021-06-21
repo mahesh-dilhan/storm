@@ -7,9 +7,7 @@ import org.apache.storm.utils.Utils
 
 import scala.util.Random
 
-/**
- * Created by gkatzioura on 2/17/17.
- */
+
 class RandomSentenceSpout extends BaseRichSpout {
 
   var _collector:SpoutOutputCollector = _
